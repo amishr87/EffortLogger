@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: LIGHTSKYBLUE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Label layoutX="192.0" layoutY="33.0" text="Employee Dashboard" textFill="#142dd9">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="215.0" fitWidth="202.0" layoutX="29.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/IMG_3919.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="224.0" layoutY="103.0" text="Employee Name: " />
+      <Label layoutX="224.0" layoutY="159.0" text="Date of Birth:" />
+      <Label layoutX="224.0" layoutY="214.0" text="Department Name:" />
+      <Label layoutX="224.0" layoutY="268.0" text="Employee Role:" />
+      <Label layoutX="366.0" layoutY="268.0" text="Software Development Engineer" />
+      <Label layoutX="366.0" layoutY="214.0" text="Research and Development" />
+      <Label layoutX="366.0" layoutY="159.0" text="09/19/2004" />
+      <Label layoutX="366.0" layoutY="103.0" text="Abhirup Vijay Gunakar" />
+      <Button layoutX="258.0" layoutY="330.0" mnemonicParsing="false" onAction="#switchToMyProjects" text="My Projects">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToUserMenu" text="User Menu" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20" fx:controller="application.DefectLogConsoleController">
+   <children>
+      <AnchorPane prefHeight="632.0" prefWidth="922.0">
+         <children>
+            <Line endX="821.0" layoutX="101.0" layoutY="51.0" startX="-100.0" />
+            <Text layoutX="364.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Defect Console">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="35.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Select the Project">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="35.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.b. Select one of the following defects to make it the Current Defect or press &quot;Create a New Defect&quot;." />
+            <Text layoutX="35.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Define or update the following Current Defect attributes:" />
+            <Text layoutX="31.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Press the &quot;Update the Current Defect&quot; to save the changes made above." />
+            <Text layoutX="435.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.a. Clear this Project's Defect Log.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <MenuButton layoutX="53.0" layoutY="103.0" mnemonicParsing="false" text=" Project Name">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+            <MenuButton layoutX="53.0" layoutY="166.0" mnemonicParsing="false" text="- Select Defect -">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+                  <MenuItem mnemonicParsing="false" text="Action 2" />
+               </items>
+            </MenuButton>
+            <TextField layoutX="91.0" layoutY="249.0" />
+            <TextField layoutX="35.0" layoutY="249.0" prefHeight="25.0" prefWidth="53.0" />
+            <Text layoutX="35.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Num" textAlignment="CENTER" wrappingWidth="53.0" />
+            <Text layoutX="117.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Defect Name" textAlignment="CENTER" wrappingWidth="96.0" />
+            <Button layoutX="458.0" layoutY="249.0" mnemonicParsing="false" text="Close" />
+            <Button layoutX="512.0" layoutY="249.0" mnemonicParsing="false" text="Reopen" />
+            <Text layoutX="457.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status: Closed" textAlignment="CENTER" wrappingWidth="96.0" />
+            <Button layoutX="435.0" layoutY="103.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="224.0" text="Clear this Defect Log" />
+            <Button layoutX="435.0" layoutY="166.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="224.0" text="Create a New Defect" />
+            <Text layoutX="35.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Defect Symptoms or Cause/Resolution" />
+            <TextField layoutX="32.0" layoutY="323.0" prefHeight="58.0" prefWidth="818.0" />
+            <Text layoutX="55.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To insert a new line, press &lt;ctrl + option + return&gt;" />
+            <Text layoutX="74.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step when injected" />
+            <SplitMenuButton layoutX="31.0" layoutY="433.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="187.0" text="SplitMenu">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </SplitMenuButton>
+            <Text layoutX="347.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Step when removed" />
+            <Text layoutX="620.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Defect Category" />
+            <SplitMenuButton layoutX="306.0" layoutY="433.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="187.0" text="SplitMenu">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+                  <MenuItem mnemonicParsing="false" text="Action 2" />
+               </items>
+            </SplitMenuButton>
+            <SplitMenuButton layoutX="586.0" layoutY="433.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="187.0" text="SplitMenu">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+                  <MenuItem mnemonicParsing="false" text="Action 2" />
+               </items>
+            </SplitMenuButton>
+            <Button layoutX="32.0" layoutY="587.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="224.0" text="Update the current defect" />
+            <Button layoutX="341.0" layoutY="587.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="224.0" text="Delete the current defect" />
+            <Button layoutX="646.0" layoutY="587.0" mnemonicParsing="false" onAction="#swtichToEffortConsole" prefHeight="25.0" prefWidth="224.0" text="Proceed to Effort Log Console " />
+            <Text layoutX="41.0" layoutY="549.0" strokeType="OUTSIDE" strokeWidth="0.0" text="These attributes have been saved" />
+            <Text layoutX="253.0" layoutY="549.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fix:" />
+            <MenuButton layoutX="305.0" layoutY="532.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="467.0" text="- Select -">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 1" />
+                  <MenuItem mnemonicParsing="false" text="Action 2" />
+               </items>
+            </MenuButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
