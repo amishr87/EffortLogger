@@ -5,25 +5,25 @@ EffortLogger is a software tool specifically designed to capture a week’s wort
 The software shows different versions of the interface based on the entered employee token.
 
 ## Login Page
-<img width="1512" alt="Screenshot 2024-04-18 at 5 14 13 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/d727b4e6-489f-4d04-8f00-be9b479cb0db">
+<img width="605" alt="Screenshot 2024-04-18 at 5 14 13 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/d6b50be7-4a7f-4b6f-9375-ffc7ecd53d9b">
 
 ## Signup Page
-<img width="1512" alt="Screenshot 2024-04-18 at 5 14 23 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/4c95a233-9f6c-43da-88de-9ffe80797fcd">
+<img width="604" alt="Screenshot 2024-04-18 at 5 14 23 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/46cea8ad-4ab9-4374-a092-7704356b08d3">
 
 ## Registration Success Page
-<img width="1512" alt="Screenshot 2024-04-18 at 5 14 40 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/35f1410e-d332-4866-8645-035e8c21630c">
+<img width="605" alt="Screenshot 2024-04-18 at 5 14 40 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/d85897a3-133b-4008-86ae-6b3cdb528bd6">
 
 ## Captcha Page
-<img width="1512" alt="Screenshot 2024-04-18 at 5 14 49 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/4d1ef8f1-3b5a-4959-a8d0-123f9bc4adf4">
+<img width="605" alt="Screenshot 2024-04-18 at 5 14 49 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/fab82280-dcd4-41aa-ba1d-44ccac0fc937">
 
 ## Employee Token Page
-<img width="1512" alt="Screenshot 2024-04-18 at 5 14 57 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/4b1a07db-8ef2-432c-9b12-9206c2205b75">
+<img width="604" alt="Screenshot 2024-04-18 at 5 14 57 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/46f937c4-4c9d-4386-8fb7-a178fd2ddfb8">
 
 ## Employee Dashboard
-<img width="1512" alt="Screenshot 2024-04-18 at 5 15 07 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/f45ec195-d0d8-42d1-98b1-ca48fe41d04c">
+<img width="604" alt="Screenshot 2024-04-18 at 5 15 07 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/0559f473-28be-4c76-a5c9-f8f08ae4a7f2">
 
 ## User Menu
-<img width="1512" alt="Screenshot 2024-04-18 at 5 15 16 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/8e688ed3-60ff-49de-9828-d7eb91fa5a1d">
+<img width="605" alt="Screenshot 2024-04-18 at 5 15 16 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/8fe33f9e-caf3-406a-9178-affe1f3219f1">
 
 ## Projects Page
-<img width="1512" alt="Screenshot 2024-04-18 at 5 15 31 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/160fcf59-9b60-4fc2-8c41-5c7aafde7255">
+<img width="605" alt="Screenshot 2024-04-18 at 5 15 31 PM" src="https://github.com/amishr87/EffortLogger/assets/160732081/1a84c250-0989-45f6-93b6-7ae167820175">
